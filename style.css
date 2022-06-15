@@ -43,8 +43,22 @@ button {
     transition: filter .2s;
 }
 
+button {
+    width: 110%;
+}
+
 button:hover {
     filter:brightness(1.2);
     cursor: pointer;
 }
 
+#resposta {
+    margin-top:30px;
+}
+
+#resposta div {
+    font-size:16px;
+    font-weight: normal;
+    opacity:0.9p;
+    margin-bottom:10px;
+}
